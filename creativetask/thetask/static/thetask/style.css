@@ -1,0 +1,31 @@
+body{
+    color: white;
+    background-color: black;
+
+    height: 2000px;
+}
+#main{
+    padding: 50px;
+    vertical-align: middle;
+    background: radial-gradient(farthest-side at bottom left, #440b57, transparent), 
+    radial-gradient(farthest-side at bottom right, #7e44b4, transparent), 
+    radial-gradient(farthest-side at top right, #fccb90, transparent),
+    radial-gradient(farthest-side at top left, #1e1e1e, transparent);
+    min-height: 100%;
+}
+
+#content{
+    padding:25px;
+    margin-top: 50px;
+    border-radius: 25px;
+    background-color: #1e1e1e;
+    width: 1000px;
+    min-height: 400px;
+}
+#texts{
+    padding: 25px;
+}
+#horilayout{
+    display: flex;
+    padding: 5px
+}
